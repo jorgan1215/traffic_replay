@@ -1,0 +1,6 @@
+截图名（不截图在名称前加#号）,URL（请用引号包裹）,登录环境(无需登录：0，登录测试环境：TEST_账号_密码，登录生产环境：PROD_账号_密码),网址加载时间(单位秒),截图区域（截全屏：1，截全屏长图：2，固定区域：x1-y1-x2-y2，截取指定元素：元素的XPATH;若在同一网址的不同区域截图，请连续几行设置相同URL和不同区域）
+#百度,"https://www.baidu.com/s?ie=utf-8&f=8&wd=hello",0,0,1
+#百度0,"https://learn.microsoft.com/zh-tw/previous-versions/ms727247(v=vs.85)",0,1,2
+#百度1,"https://www.baidu.com/s?ie=utf-8&f=8&wd=hello",0,1,0-0-500-500
+百度2,"https://www.baidu.com/s?f=8&wd=,&ie=utf-8",0,1,//*[@id="kw"]
+#百度3,"https://www.baidu.com/s?f=8&wd=,&ie=utf-8",0,1,0
